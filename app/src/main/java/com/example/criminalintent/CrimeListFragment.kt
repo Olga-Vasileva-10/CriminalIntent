@@ -19,9 +19,6 @@ import java.util.UUID
 private const val TAG = "CrimeListFragment"
 class CrimeListFragment : Fragment() {
 
-    /**
-     * Требуемый интерфейс
-     */
     interface Callbacks {
         fun onCrimeSelected(crimeId: UUID)
     }
